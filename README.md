@@ -1,6 +1,12 @@
 # Trac Explorer
 
-[![Build status](https://ci.appveyor.com/api/projects/status/vjoyprlqmwpobqin?svg=true)](https://ci.appveyor.com/project/mmihajlovic/tracexplorer)
+Forked TracExplorer Status
+
+[![Forked build status](https://ci.appveyor.com/api/projects/status/dcapu2q6w8vsehw2?svg=true)](https://ci.appveyor.com/project/gtsoftwareltd/tracexplorer)
+
+Original TracExplorer Status
+
+[![Original build status](https://ci.appveyor.com/api/projects/status/vjoyprlqmwpobqin?svg=true)](https://ci.appveyor.com/project/mmihajlovic/tracexplorer)
 
 [![openhub](https://www.openhub.net/p/tracexplorer/widgets/project_thin_badge.gif)](http://www.openhub.net/p/tracexplorer)
 
