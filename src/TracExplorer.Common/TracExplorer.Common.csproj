@@ -223,6 +223,7 @@
   </Target>
   -->
   <PropertyGroup>
-    <PreBuildEvent>"$(ProjectDir)..\..\build\version_scm.bat" "$(ProjectDir).\..\.." "$(ProjectDir)..\GlobalAssemblyInfo.cs.in" "$(ProjectDir)..\GlobalAssemblyInfo.cs"</PreBuildEvent>
+    <PreBuildEvent>
+    </PreBuildEvent>
   </PropertyGroup>
 </Project>
