@@ -91,7 +91,9 @@ namespace TracExplorer.CommonTest
 
             SetAllowUnsafeHeaderParsing();
             //trac = TracCommon.GetTrac(servers[1]); // get the first server from the registry
-            trac = TracCommon.GetTrac(new ServerDetails("http://tracexplorer.devjavu.com/", "vstrac.devjavu@gmail.com", "testing"));
+
+            var server = new ServerDetails("https://gtsoftware.xp-dev.com/trac/TracExplorer/", "buildserver", "e5Yz6w4X4MFQmDUgEndK");
+            trac = TracCommon.GetTrac(server);
 
             xmlrpc.Tracer tracer = new xmlrpc.Tracer();
             tracer.Attach(trac);
