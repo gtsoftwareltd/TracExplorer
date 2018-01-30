@@ -1,0 +1,17 @@
+The VS2017 solution has a test project.
+The tests rely on accessing a real trac server with a hard coded user name and password.
+
+public void TestGetAttachment()
+Expects avatar.gif as an attachment on "WikiStart/avatar.gif"
+
+public void TestGetComponent()
+Expects a component called "General" to exist
+
+public void TestGetPage()
+Expects for the wikistart page to have been edited so that an earlier version can also be fetched with different contents.
+
+public void TestGetPriority()
+Expects a "high" priority to exist
+
+public void TestGetSeverity()
+Expects a "critical" severity to exist
