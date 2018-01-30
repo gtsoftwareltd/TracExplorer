@@ -462,7 +462,7 @@ namespace TracExplorer.CommonTest
             object[] result = trac.getAPIVersion();
 
             Assert.IsNotNull(result);
-            Assert.AreEqual<int>(2, result.Length);
+            Assert.AreEqual<int>(3, result.Length);
         }
         #endregion
     }
