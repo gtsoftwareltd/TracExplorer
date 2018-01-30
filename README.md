@@ -47,7 +47,7 @@ Please go to our main website for the documentation.
 
 ## BUILDING PROCEDURE (REQUIREMENTS)
 - .NET 2 framework
-- Solution can be build by both VS2005, VS2008, VS2010. There are 3 solution files.
+- Solution can be build by VS2005, VS2008, VS2010. There are 3 solution files.
 - Needs SubWCRev from TortoiseSVN installation for autmatic version numbering
 - Uses the XMLRPC.NET library from http://www.xml-rpc.net/
 - Requires Trac sites with an enabled [http://trac-hacks.org/wiki/XmlRpcPlugin XMLRPC plugin]
