@@ -1,4 +1,8 @@
 @echo off
+
+rem Original script from https://gitlab.com/tortoisegit/tortoisegit/issues/2746
+rem Jiří Engelthaler
+
 setlocal
 
 if "%2" == "" (
